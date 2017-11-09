@@ -1,0 +1,182 @@
+/** 登陆界面**/
+html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	border: 0;
+}
+
+body {
+	background: url(../images/bg1.jpg) no-repeat 0px 0px;
+	
+	
+}
+
+
+
+/** 頭部  **/
+h1 {
+	text-align: center;
+	font-weight: 400;
+	color: #2B2B36;
+	font-size: 2em;
+}
+
+/** 登陸  **/
+.login-form {
+	background: #2b2b36;
+	position: relative;
+	width: 30%;
+	height: 450px;
+	margin: 2% auto 0 auto;
+	text-align: center;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-o-border-radius: 15px;
+}
+
+/** 头像位置设置  **/
+.avtar {
+	margin-bottom: 10px;
+}
+
+.avtar img {
+	margin: 2em 0 0;
+}
+
+.head-info {
+	padding: 5px 0;
+	text-align: center;
+	font-weight: 600;
+	font-size: 2em;
+	color: #fff;
+	height: 50px;
+	-webkit-border-top-left-radius: 10px;
+	-moz-border-top-left-radius: 10px;
+	-o-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-top-right-radius: 10px;
+	-o-border-top-right-radius: 10px;
+}
+
+/** Username Password **/
+input[type="text"] {
+	width: 70%;
+	padding: 1em 2em 1em 3em;
+	color: #9199aa;
+	font-size: 18px;
+	outline: none;
+	background: url(../images/adm.png) no-repeat 10px 15px;
+	border: none;
+	font-weight: 100;
+	border-bottom: 1px solid #484856;
+	margin-top: 18px;
+}
+
+input[type="password"] {
+	width: 70%;
+	padding: 1em 2em 1em 3em;
+	color: #dd3e3e;
+	font-size: 18px;
+	outline: none;
+	background: url(../images/key.png) no-repeat 10px 23px;
+	border: none;
+	font-weight: 100;
+	border-bottom: 1px solid #484856;
+	margin-bottom: 2em;
+}
+
+/** 登陸条  **/
+input[type="submit"] {
+	margin-top: 30px;
+	font-size: 30px;
+	color: #fff;
+	outline: none;
+	border: none;
+	background: #3ea751;
+	width: 100%;
+	padding: 18px 0;
+	border-bottom-left-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-bottom-left-radius: 15px;
+	-o-border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+input[type="submit"]:hover {
+	background: #ff2775;
+	transition: 1s all;
+	-webkit-transition: 1s all;
+	-moz-transition: 1s all;
+	-o-transition: 1s all;
+}
+
+/** 三点样式  **/
+label.lbl-1 {
+	background: #0422F2;
+	width: 20px;
+	height: 20px;
+	display: block;
+	float: right;
+	border-radius: 50%;
+	margin: 16px 10px 0px 0px;
+}
+
+label.lbl-2 {
+	background: #FF2775;
+	width: 20px;
+	height: 20px;
+	display: block;
+	float: right;
+	border-radius: 50%;
+	margin: 16px 10px 0px 0px;
+}
+
+label.lbl-3 {
+	background: #F3DA27;
+	width: 20px;
+	height: 20px;
+	display: block;
+	float: right;
+	border-radius: 50%;
+	margin: 16px 10px 0px 0px;
+}
+
+.copy-rights {
+	text-align: center;
+	margin-top: 70px;
+	color: #FFF;
+	font-size: 1em;
+	line-height: 1.8em;
+}
+
+a {
+	font-size: 15px;
+	color: gray;
+}
+
+@-webkit-keyframes fadetoggle {
+      0%{    
+        opacity: 0;
+      }     
+      50%{
+         opacity: 1;
+      }
+      100%{ 
+        opacity: 1;
+      }
+    }
+.message {
+	margin: 0 auto;
+	width: 200px;
+	display: block;
+	color:#FF2775;
+	-webkit-animation-name: fadetoggle;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-timing-function: ease-out;
+	-webkit-animation-delay: 0;
+	-webkit-animation-iteration-count: 5;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-fill-mode: both;
+}
